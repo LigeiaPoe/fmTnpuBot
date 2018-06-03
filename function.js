@@ -7,7 +7,7 @@ module.exports = {
     returnSheduleByGroupForDay : function (group, day) {
         var mess = '';
         for(var key in group) {
-            if (key == day.capitalize()) {
+            if (key == day) {
                 mess = mess + key + ': \n';
                 var i = 1;
                 for (var k in group[key]) {
