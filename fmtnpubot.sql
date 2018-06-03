@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `chairs` (
   `teachers` varchar(1000) CHARACTER SET utf8 NOT NULL,
   `auditory` varchar(255) CHARACTER SET utf8 NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 --
 -- Дамп даних таблиці `chairs`
@@ -57,7 +57,7 @@ DROP TABLE IF EXISTS `shedule_lessons_bell`;
 CREATE TABLE IF NOT EXISTS `shedule_lessons_bell` (
   `id` int(11) NOT NULL,
   `shedule` json NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
 -- Дамп даних таблиці `shedule_lessons_bell`
@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS `shedule_lessons_by_day` (
   `groups` varchar(255) CHARACTER SET utf8 NOT NULL,
   `shedule` varchar(1000) CHARACTER SET utf8 NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
 
 --
 -- Дамп даних таблиці `shedule_lessons_by_day`
